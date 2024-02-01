@@ -1,26 +1,20 @@
-table,th,tr,td{
-
-      border-style: solid dotted solid double ;
-                     border-width: 1px 2px 1px 3px; 
-                     border-color: black green black purple; 
-                     margin: auto; 
-                     
-                        width: 800px;
-                        
-                       font-size: 30px;
-padding: 5px;
-                       
-}
 body{
-  background-image:  radial-gradient(rgb(248, 79, 226),rgb(0, 255, 179)) ;
-
-   
-  
-  
-  
- 
+  margin: 0;
 }
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    color: azure;
+.linear{
+  height: 50vh;
+  width: 100vw;
+  background-image: linear-gradient(  to right,  rgb(5, 173, 202), rgb(235, 0, 51));
+
+}
+.text{
+  font-size: 50px;
+  color: azure;
+  margin-top: 8%;
+}
+
+.radical{
+  height: 50vh;
+  width: 100vw;
+  background-image: radial-gradient(rgb(25, 212, 236)10% ,rgb(10, 33, 138))
 }
